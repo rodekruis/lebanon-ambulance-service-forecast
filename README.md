@@ -3,10 +3,11 @@ Azure Functions app to forecast demand of ambulances in Lebanon.
 
 IBased on [this template](https://github.com/jmargutt/azure-python-function-app).
 
-## Requirements
+## Requirements and Setup
 Locally:
-1. Python 3.*
-2. [Azure Functions Core Tools and Visual Studio Code](https://docs.microsoft.com/en-us/azure/developer/python/tutorial-vs-code-serverless-python-01#configure-your-environment)
+1. Python 3.7
+2. `pip install -r requirements.txt`
+3. [Azure Functions Core Tools and Visual Studio Code](https://docs.microsoft.com/en-us/azure/developer/python/tutorial-vs-code-serverless-python-01#configure-your-environment)
 
 In Azure:
 1. An [Azure Resource Group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview) for linux resources (BEST PRACTICE: make a new resource group for each project)
