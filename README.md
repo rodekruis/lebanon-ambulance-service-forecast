@@ -1,7 +1,7 @@
 # lebanon-ambulance-services-forecast
 Azure Functions app to forecast demand of ambulances in Lebanon.
 
-Based on [this template](https://github.com/jmargutt/azure-python-function-app).
+Built to support Lebanese Red Cross (LRC) during COVID-19 response. Based on [this template](https://github.com/jmargutt/azure-python-function-app).
 
 ## Description
 * All relevant code for forecasts is in `my-function/__init__.py`
