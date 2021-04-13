@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=covidugandatextanalysis;AccountKey=j1J0o6BFnqtdGJbphs43sZr/DMCRI172Q1Bu2ixT5qHurBtK+njE6Dmu7ddREykpelZivnFDqB/pRpcy+JuNKg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "GoogleServiceAccountKey": "@Microsoft.KeyVault(SecretUri=https://global-covid-keys.vault.azure.net/secrets/google-service-account-covid-uganda-key/a31a47e7b218406cb343618f226adee7)"
+  }
+}
