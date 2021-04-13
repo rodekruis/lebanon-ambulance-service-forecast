@@ -3,6 +3,10 @@ Azure Functions app to forecast demand of ambulances in Lebanon.
 
 Based on [this template](https://github.com/jmargutt/azure-python-function-app).
 
+## Description
+* All relevant code for forecasts is in `my-function/__init__.py`
+* The schedule (how often the forecasts are generated) is set in `function.json`; to change it, edit the [cron expression](https://crontab.guru/) in the field `schedule`
+
 ## Requirements and Setup
 Locally:
 1. Python 3.7
@@ -12,10 +16,6 @@ Locally:
 In Azure:
 1. An [Azure Resource Group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview) for linux resources (BEST PRACTICE: make a new resource group for each project)
 2. The role of "Contributor" in that resource group
-
-## Description
-* All relevant code for forecasts is in `my-function/__init__.py`
-* The schedule (how often the forecasts are generated) is set in `function.json`; to change it, edit the [cron expression](https://crontab.guru/) in the field `schedule`
 
 ## Deployment
 5. Test and debug locally. Example: to run the function locally, execute this command from the project root folder
