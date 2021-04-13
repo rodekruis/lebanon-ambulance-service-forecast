@@ -1,7 +1,7 @@
 # lebanon-ambulance-services-forecast
 Azure Functions app to forecast demand of ambulances in Lebanon.
 
-IBased on [this template](https://github.com/jmargutt/azure-python-function-app).
+Based on [this template](https://github.com/jmargutt/azure-python-function-app).
 
 ## Requirements and Setup
 Locally:
